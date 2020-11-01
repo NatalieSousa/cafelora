@@ -239,6 +239,10 @@ nav a:hover {
 }
 
 .gallery {
+  display: flex;
+  flex-direction: row;
+ justify-content: center;
+ align-items: center;
   padding-top: 0;
   height: 100vh;
 
@@ -303,3 +307,12 @@ nav a:hover {
     text-align: center;
   }
 }
+
+  .about {
+ background: none;
+ color: ivory;
+ border: none;
+ width: 500px;
+ height: 100px;
+ text-align: justify;
+  }
