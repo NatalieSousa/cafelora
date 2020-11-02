@@ -28,6 +28,51 @@ order.addEventListener("click", () => {
 });
 
 
+const Layer = (props) => {
+return `<div class="layer__color"
+style="background-color: ${props.color}"
+></div>
+<div class="layer__label">${props.label}</div>`;
+};
+
+const slozeni = (props) => {
+  const obsah = document.createElement("div");
+  obsah.className = "Drink__slozeni";
+  obsah.innerHTML = `
+<div class="layer__label">mléčná pěna</div>
+</div>
+<div class="layer__label">teplé mléko</div>
+</div>
+<div class="layer__label">espresso</div>
+</div>`;
+
+
+
+return obsah;
+};
+
+
+
+
+
+//<div class="layer__label">mléčná pěna</div>
+//</div>
+
+//<div class="layer__label">teplé mléko</div>
+//</div>
+
+//<div class="layer__label">espresso</div>
+//</div>
+
+
+
+
+
+
+
+
+
+
 
 
 
